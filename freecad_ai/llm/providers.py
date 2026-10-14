@@ -167,6 +167,12 @@ PROVIDERS = {
         "api_style": "openai",
         "supports_tools": True,
     },
+    "demonroute": {
+        "base_url": "https://api.demonroute.com/v1",
+        "default_model": "huihui-ai/Huihui-Qwen3.5-27B-abliterated",
+        "api_style": "openai",
+        "supports_tools": True,
+    },
     "custom": {
         "base_url": "",
         "default_model": "",

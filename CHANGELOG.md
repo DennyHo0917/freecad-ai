@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+### Added
+
+- **DemonRoute is now a provider preset (#128).** It's a prepaid gateway
+  to open-weight models at `https://api.demonroute.com/v1`, using
+  OpenAI-style requests. The default model is
+  `huihui-ai/Huihui-Qwen3.5-27B-abliterated`. Proposed by DemonRoute's
+  founder, who disclosed the affiliation; no revenue share, referral or
+  tracking is involved. DemonRoute says it doesn't store prompts, but it
+  forwards them to third-party upstream hosts (mainly Featherless, per
+  the operator) that have their own retention policies. We accepted the
+  operator's tool-call test of the default model and haven't run one
+  ourselves, so please report any Act-mode failures. If users report
+  problems with the service, the preset will be removed.
+
 ### Fixed
 
 - **VarSet and spreadsheet edge cases from the #121 review (#126).**
