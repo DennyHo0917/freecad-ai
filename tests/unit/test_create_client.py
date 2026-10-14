@@ -93,6 +93,11 @@ class TestApiKeyFallback:
         assert "perplexity" in get_provider_names()
         assert get_api_style("perplexity") == "openai"
 
+    def test_demonroute_is_registered(self):
+        from freecad_ai.llm.providers import get_provider_names, get_api_style
+        assert "demonroute" in get_provider_names()
+        assert get_api_style("demonroute") == "openai"
+
     def test_both_empty_yields_empty(self):
         cfg = _cfg()
         cfg.active_profile = "local"
