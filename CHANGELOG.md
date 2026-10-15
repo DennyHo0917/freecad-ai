@@ -25,7 +25,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
   OpenRouter in the Settings dialog and the preferences page. Base URL
   `https://router.requesty.ai/v1` (EU: `https://router.eu.requesty.ai/v1`),
   default model `anthropic/claude-sonnet-4-6`. Keys come from
-  https://app.requesty.ai/api-keys.
+  https://app.requesty.ai/api-keys. Contributed by @Thibaultjaigu (#96),
+  who disclosed the affiliation; no revenue share, referral or tracking
+  is involved.
 
 ### Fixed
 
