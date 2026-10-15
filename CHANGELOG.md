@@ -21,6 +21,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
   ourselves, so please report any Act-mode failures. If users report
   problems with the service, the preset will be removed.
 
+- **Requesty provider preset.** An OpenAI-compatible gateway, listed next to
+  OpenRouter in the Settings dialog and the preferences page. Base URL
+  `https://router.requesty.ai/v1` (EU: `https://router.eu.requesty.ai/v1`),
+  default model `anthropic/claude-sonnet-4-6`. Keys come from
+  https://app.requesty.ai/api-keys.
+
 ### Fixed
 
 - **VarSet and spreadsheet edge cases from the #121 review (#126).**
